@@ -20,3 +20,16 @@ Tools &  Packages:
  video_player                   Play  .mp4  onboarding videos        
  intl                           Format date & time                   
  Oxygen font                    Google Fonts 
+ 
+
+ assets:
+    - videos/
+    - images/
+
+  fonts:
+    - family: Oxygen
+      fonts:
+        - asset: assets/fonts/Oxygen-Regular.ttf
+        - asset: assets/fonts/Oxygen-Bold.ttf
+          weight: 700
+ 
