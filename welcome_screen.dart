@@ -70,7 +70,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
         child: Column(
           children: [
             const SizedBox(height: 78),
-            // --- Text Section ---
+            //  Text Section  
             const SizedBox(
               width: 358,
               child: Column(
@@ -98,7 +98,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             ),
             const SizedBox(height: 60),
 
-            // --- Illustration ---
+            //image  
             Image.asset(
               'images/car.jpg',
               width: 305,
@@ -119,7 +119,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
 
             const SizedBox(height: 20),
 
-            // --- Use Current Location Button ---
+            // Use Current Location Button 
             SizedBox(
               width: 359,
               height: 56,
@@ -143,7 +143,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             ),
             const SizedBox(height: 16),
 
-            // --- Home Button ---
+            // Home Button 
             SizedBox(
               width: 359,
               height: 56,
@@ -174,3 +174,4 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
     );
   }
 }
+
